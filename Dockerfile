@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
     crf++ \
     ruby
 
-RUN git clone https://github.com/NYTimes/ingredient-phrase-tagger.git .
+RUN git clone https://github.com/BweakfastClub/ingredient-phrase-tagger.git .
 
 ADD CRF++-0.58.tar.gz .
 
