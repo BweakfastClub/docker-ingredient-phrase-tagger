@@ -2,6 +2,8 @@
 This is a Docker-contained version of NYTimes' [ingredient-phrase-tagger](https://github.com/NYTimes/ingredient-phrase-tagger), for the parsing function.
 It acts as a pre-packaged wrapper to use the tool more easily. For more details on the tool itself, please refer to the original documentation (link above).
 
+**WARNING**: Does not currently work with ingredients such as *1 (10 ounce) package sliced button mushrooms and 1 (1.25 ounce) package taco seasoning mix* where there is a quantity and a note about the size of the package
+
 Given the following input:
 ```
 1 pound carrots, young ones if possible
